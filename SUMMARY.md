@@ -1,14 +1,15 @@
 # Table of contents
 
+* [Introduction](README.md)
 * Today What I Learned
-* [Javascript](javascript/README.md)
+* Javascript
   * [클로저 \(closure\)](javascript/closure.md)
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
 * Web
-  * [웹의 동작 과정](web/web-process.md)
+  * [웹의 동작 과정](web/undefined.md)
 * [Algorithm and Data Structure](algorithm-and-data-structure/README.md)
   * 기초 이론
-    * [복잡도 분석](algorithm-and-data-structure/basic/complexity.md)
+    * [복잡도 분석](algorithm-and-data-structure/undefined/undefined.md)
   * 수학 \(Math\)
     * [factorial \(계승\)](algorithm-and-data-structure/math/factorial.md)
     * [피보나치 수 \(Fibonacci\)](algorithm-and-data-structure/math/fibonacci.md)
@@ -18,6 +19,6 @@
     * [순차 탐색 \(linear search\)](algorithm-and-data-structure/search/linear-search.md)
     * [이진 탐색 \(Banary search\)](algorithm-and-data-structure/search/banary-search.md)
   * 문제 풀이
-    * [땅따먹기](algorithm-and-data-structure/practice/dp-land-eating.md)
-    * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/practice/max-sum-on-arr.md)
+    * [땅따먹기](algorithm-and-data-structure/undefined-1/undefined.md)
+    * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/undefined-1/undefined-1.md)
 
