@@ -1,6 +1,6 @@
 # Table of contents
 
 * Initial page
-* Javascript
-  * test
+* [Javascript](javascript/README.md)
+  * [test](javascript/test.md)
 
