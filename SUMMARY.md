@@ -1,6 +1,6 @@
 # Table of contents
 
-* Initial page
+* Today What I Learned
 * [Javascript](javascript/README.md)
   * [클로저 \(closure\)](javascript/closure.md)
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
