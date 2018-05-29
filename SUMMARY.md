@@ -17,7 +17,7 @@
   * 탐색 \(Search\)
     * [순차 탐색 \(linear search\)](algorithm-and-data-structure/search/linear-search.md)
     * [이진 탐색 \(Banary search\)](algorithm-and-data-structure/search/banary-search.md)
-* 문제 풀이
-  * [땅따먹기](undefined/land.md)
-  * [가장 큰 원소의 합 구하기](undefined/max-sum-on-arr.md)
+  * 문제 풀이
+    * [땅따먹기](algorithm-and-data-structure/undefined/land.md)
+    * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/undefined/max-sum-on-arr.md)
 
