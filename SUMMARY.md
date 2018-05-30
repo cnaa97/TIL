@@ -5,6 +5,8 @@
 * Javascript
   * [클로저 \(closure\)](javascript/closure.md)
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
+* DevOps
+  * [gulp](devops/gulp.md)
 * Web
   * [웹의 동작 과정](web/undefined.md)
 * [Algorithm and Data Structure](algorithm-and-data-structure/README.md)
