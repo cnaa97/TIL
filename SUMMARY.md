@@ -5,8 +5,6 @@
 * Javascript
   * [클로저 \(closure\)](javascript/closure.md)
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
-* DevOps
-  * [gulp](devops/gulp.md)
 * Web
   * [웹의 동작 과정](web/undefined.md)
 * [Algorithm and Data Structure](algorithm-and-data-structure/README.md)
@@ -23,4 +21,6 @@
   * 문제 풀이
     * [땅따먹기](algorithm-and-data-structure/undefined-1/undefined.md)
     * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/undefined-1/undefined-1.md)
+* DevOps
+  * [gulp](devops/gulp.md)
 
