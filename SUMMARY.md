@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Today What I Learned](README.md)
 * Today What I Learned
 * Javascript
   * [클로저 \(closure\)](javascript/closure.md)
