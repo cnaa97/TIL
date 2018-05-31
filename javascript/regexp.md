@@ -7,5 +7,12 @@ var str = 'naver.com/id'
 str.match(/\/([^\/]+)\/?$/)[1]; // id
 ```
 
+#### 숫자만 가져오기
+
+```javascript
+var numberPattern = /\d+/g;
+'something102asdfkj1948948'.match(numberPattern);
+```
+
 
 

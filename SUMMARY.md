@@ -5,6 +5,7 @@
 * Javascript
   * [클로저 \(closure\)](javascript/closure.md)
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
+  * [날짜 \(Date\)](javascript/date.md)
 * Web
   * [웹의 동작 과정](web/undefined.md)
   * [오픈 그래프 \(Open Graph\)](web/open-graph.md)
