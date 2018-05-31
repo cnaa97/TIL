@@ -1,12 +1,6 @@
----
-description: Introduction
----
-
 # Today What I Learned
 
-[Wiki \(Gitbook\)](https://docs.junojunho.com/til)
-
-## Why do I start to write TIL
+## Why do I start to write TIL \(Today What I Learned\)
 
 Natually, I feel the need to customize what I learned a few years ago. I studied not only front-end development, but also other web technology. When I need to code like CSS or I can't remember some kine of code exactly, I can find on my note storage and search with keywords. Day by day, my notes is getting more and more.
 

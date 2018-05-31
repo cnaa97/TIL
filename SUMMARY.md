@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Today What I Learned](README.md)
-* Today What I Learned
+* Introduction
+* [Today What I Learned](today-what-i-learned.md)
 * Javascript
   * [클로저 \(closure\)](javascript/closure.md)
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
