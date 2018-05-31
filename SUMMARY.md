@@ -7,6 +7,7 @@
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
 * Web
   * [웹의 동작 과정](web/undefined.md)
+  * [Open Graph](web/open-graph.md)
 * [Algorithm and Data Structure](algorithm-and-data-structure/README.md)
   * 기초 이론
     * [복잡도 분석](algorithm-and-data-structure/undefined/undefined.md)
