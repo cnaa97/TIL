@@ -1,4 +1,4 @@
-# Open Graph
+# 오픈 그래프 \(Open Graph\)
 
 ```markup
 <title>The Rock (1996)</title>
