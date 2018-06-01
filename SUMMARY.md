@@ -27,8 +27,8 @@
   * 문제 풀이
     * [땅따먹기](algorithm-and-data-structure/practice/hopscotch.md)
     * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/practice/find-the-sum-of-the-largest.md)
-* Programming
-  * [OOP](programming/oop-object-oriented-programming.md)
+* Software Engineering
+  * [OOP](software-engineering/oop-object-oriented-programming.md)
 * DevOps
   * [gulp](devops/gulp.md)
 
