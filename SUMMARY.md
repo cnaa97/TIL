@@ -10,6 +10,9 @@
   * [웹의 동작 과정](web/undefined.md)
   * [오픈 그래프 \(Open Graph\)](web/open-graph.md)
 * [Algorithm and Data Structure](algorithm-and-data-structure/README.md)
+  * 자료구조 \(Data Structure\)
+    * [큐 \(Queue\)](algorithm-and-data-structure/data-structure/queue.md)
+    * [스택 \(Stack\)](algorithm-and-data-structure/data-structure/stack.md)
   * 기초 이론
     * [복잡도 분석](algorithm-and-data-structure/undefined/undefined.md)
   * 수학 \(Math\)
