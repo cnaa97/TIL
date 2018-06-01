@@ -13,6 +13,7 @@
   * 자료구조 \(Data Structure\)
     * [큐 \(Queue\)](algorithm-and-data-structure/data-structure/queue.md)
     * [스택 \(Stack\)](algorithm-and-data-structure/data-structure/stack.md)
+    * [링크드 리스트 \(Linked List\)](algorithm-and-data-structure/data-structure/linked-list.md)
   * 기초 이론
     * [복잡도 분석](algorithm-and-data-structure/undefined/undefined.md)
   * 수학 \(Math\)
@@ -24,10 +25,10 @@
     * [순차 탐색 \(linear search\)](algorithm-and-data-structure/search/linear-search.md)
     * [이진 탐색 \(Banary search\)](algorithm-and-data-structure/search/banary-search.md)
   * 문제 풀이
-    * [땅따먹기](algorithm-and-data-structure/undefined-1/undefined.md)
-    * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/undefined-1/undefined-1.md)
+    * [땅따먹기](algorithm-and-data-structure/practice/hopscotch.md)
+    * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/practice/find-the-sum-of-the-largest.md)
 * Programming
-  * [OOP \(Object-Oriented Programming\)](programming/oop-object-oriented-programming.md)
+  * [OOP](programming/oop-object-oriented-programming.md)
 * DevOps
   * [gulp](devops/gulp.md)
 

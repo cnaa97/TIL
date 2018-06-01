@@ -1,4 +1,8 @@
-# OOP \(Object-Oriented Programming\)
+---
+description: OOP (Object-Oriented Programming)
+---
+
+# OOP
 
 ### Class
 
