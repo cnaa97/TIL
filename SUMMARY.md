@@ -7,6 +7,7 @@
   * [프로토타입 \(Prototype\)](javascript/prototype.md)
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
   * [날짜 \(Date\)](javascript/date.md)
+  * [jQuery 분석](javascript/jquery.md)
 * Web
   * [웹의 동작 과정](web/undefined.md)
   * [오픈 그래프 \(Open Graph\)](web/open-graph.md)
@@ -31,6 +32,7 @@
     * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/practice/find-the-sum-of-the-largest.md)
 * Software Engineering
   * [OOP](software-engineering/oop-object-oriented-programming.md)
+  * [Development Process](software-engineering/development-process.md)
 * DevOps
   * [gulp](devops/gulp.md)
 
