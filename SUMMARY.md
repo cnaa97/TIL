@@ -4,6 +4,7 @@
 * [Today What I Learned](today-what-i-learned.md)
 * Javascript
   * [클로저 \(closure\)](javascript/closure.md)
+  * [프로토타입 \(Prototype\)](javascript/prototype.md)
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
   * [날짜 \(Date\)](javascript/date.md)
 * Web
