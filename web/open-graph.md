@@ -1,4 +1,8 @@
-# 오픈 그래프 \(Open Graph\)
+---
+description: 오픈 그래프 (Open Graph)
+---
+
+# Open Graph
 
 ```markup
 <title>The Rock (1996)</title>
