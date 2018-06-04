@@ -8,6 +8,7 @@
   * [정규표현식 \(RegExp\)](javascript/regexp.md)
   * [날짜 \(Date\)](javascript/date.md)
   * [jQuery 분석](javascript/jquery.md)
+  * [스코프 \(this\)](javascript/this.md)
 * Style
   * CSS
     * [Prevent user select](style/css/prevent-user-select.md)
