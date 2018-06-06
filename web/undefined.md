@@ -15,7 +15,7 @@
 
 ### 브라우저
 
-![&#xBE0C;&#xB77C;&#xC6B0;&#xC800; &#xB79C;&#xB354;&#xB9C1;](../.gitbook/assets/image.png)
+![&#xBE0C;&#xB77C;&#xC6B0;&#xC800; &#xB79C;&#xB354;&#xB9C1;](../.gitbook/assets/image%20%284%29.png)
 
 1. 돔 트리 구축을 위한 html 파싱
 2. 랜더 트리 구축

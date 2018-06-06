@@ -1,6 +1,6 @@
 # 스택 \(Stack\)
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 * LILO \(Last-In-Last-Out\)
 * Stack Over Flow

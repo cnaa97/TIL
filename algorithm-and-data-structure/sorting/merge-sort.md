@@ -1,6 +1,6 @@
 # 합병 정렬 \(Merge sort\)
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 * 분할정복 방법
 * 복잡도 `O(nlogn)`
