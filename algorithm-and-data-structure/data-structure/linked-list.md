@@ -6,7 +6,7 @@ description: >-
 
 # 링크드 리스트 \(Linked List\)
 
-![Linked List](../../.gitbook/assets/image%20%281%29.png)
+![Linked List](../../.gitbook/assets/image%20%282%29.png)
 
 #### 노드로 사용할 클래스 정의
 

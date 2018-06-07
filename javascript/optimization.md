@@ -8,7 +8,7 @@ description: JavaScript Start-up Optimization
 
 기본적으로 UI 개발자는 **스크립트가 다운되고 실행되는 비용**을 우선적으로 생각하게 된다. 이는 분명 네트워크에 의존적이다. 3G, 4G, Wi-Fi 인지 등 네트워크의 상태에 따라 문제가 될 수 있다.
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 아래 방법을 통해 네트워크 비용을 낮출 수 있다.
 
@@ -32,9 +32,9 @@ description: JavaScript Start-up Optimization
 
 크롬 개발자 도구를 이용해 퍼포먼스를 살펴본다. 가장 크게 드는 비용은 자바스크립트 엔진이 소스를 파싱하고 컴파일하는 과정이다. 
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
-![Chrome DevTools - Performance panel &amp;gt; Bottom-Up](../.gitbook/assets/image%20%287%29.png)
+![Chrome DevTools - Performance panel &amp;gt; Bottom-Up](../.gitbook/assets/image%20%2811%29.png)
 
 파싱, 컴파일되는 시간을 측정할 수 있다. 
 
@@ -50,7 +50,7 @@ description: JavaScript Start-up Optimization
 
 전송 크기은 느린 네트워크에서 매우 중요한 요소이다.  파싱 시간도 CPU를 위해 낮게 유지할 필요가 있다.
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 만약 모바일 기기를 타겟으로 한다면, 퍼포먼스 비용을 더 고려할 필요가 있다.
 

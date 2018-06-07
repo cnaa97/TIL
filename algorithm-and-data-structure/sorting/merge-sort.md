@@ -1,6 +1,4 @@
-# 합병 정렬 \(Merge sort\)
-
-![](../../.gitbook/assets/image%20%2810%29.png)
+# 합병 정렬 \(Merge Sort\)
 
 * 분할정복 방법
 * 복잡도 `O(nlogn)`
@@ -43,4 +41,10 @@ function merge(left, right) {
 mergeSort([20, 15, 35, 50, 40, 10, 30, 25])
 // [ 10, 15, 20, 25, 30, 35, 40, 50 ]
 ```
+
+![](../../.gitbook/assets/image%20%284%29.png)
+
+![](https://camo.githubusercontent.com/64ba2bcbd5c11779657e40a1d03d0ea691f6fa57/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f632f63632f4d657267652d736f72742d6578616d706c652d33303070782e676966)
+
+
 
