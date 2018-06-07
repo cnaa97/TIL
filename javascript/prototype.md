@@ -56,7 +56,8 @@ Person.prototype.aboutMe = function(){
   console.log(this.name);
 }
 
-function Man () {
+function Man (name) {
+  Person.call(this, name);
   this.gender = 'MALE';
 }
 // Man은 Person을 상속받는다.
