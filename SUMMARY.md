@@ -46,6 +46,7 @@
   * [문제 풀이](algorithm-and-data-structure/practice/README.md)
     * [땅따먹기](algorithm-and-data-structure/practice/hopscotch.md)
     * [가장 큰 원소의 합 구하기](algorithm-and-data-structure/practice/find-the-sum-of-the-largest.md)
+    * [JS with HTML](algorithm-and-data-structure/practice/js-with-html.md)
 * [Software Engineering](software-engineering/README.md)
   * [OOP](software-engineering/oop-object-oriented-programming.md)
   * [Development Process](software-engineering/development-process.md)
