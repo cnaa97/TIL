@@ -1,18 +1,34 @@
 # HTML
 
-#### `DOCTYPE`은 무엇일까요
+### `DOCTYPE`은 무엇일까요
 
 * document type의 약자
 * 표준모드와 쿼크모드\(호환 모드\)를 구별하기 위해 선언
 * 표준 모드로 렌더링하도록 브라우저에 지시한다.
 * 호환 모드는 기존 방식으로 제작된 웹사이트들을 표현하기 위한 방법이며, 비표준 동작들을 실행한다.
 
-#### `DOCTYPE`을 사용하지 않으면?
+### `DOCTYPE`을 사용하지 않으면?
 
 * **쿼크 모드\(호환 모드\)**로 랜더링 된다.
 * 웹브라우저의 현재 버전에 의존되는데, 만약 HTML5를 지원하지 않는 브라우저라면, HTML5 문법이 랜더링되지 않는다.
 
-#### 여러 언어로 되어 있는 페이지는 어떻게 제공하나요?
+### HTML5의 `DOCTYPE`과 기존 `DOCTYPE`의 차이는?
+
+TODO
+
+### XML과 XHTML의 차이는?
+
+XHTML이 XML 문법을 따르므로 HTML과 문법 규칙이 약간 다르다.
+
+### XHTML을 이용한 페이지의 한계점?
+
+TODO
+
+### `application/xhtml+xml`으로 지정한 페이지의 문제는?
+
+TODO
+
+### 다국어 서비스 제공 방법은?
 
 * 서버 사이드 랜더링일 경우, HTTP요청 시 클라이언트에서 **Accept-Language** 헤더와 같이 기본 언어 설정에 대한 정보를 보낸다.
 * 서버는 이 정보를 사용해 해당 언어로 된 문서 버전을 반환한다.
@@ -20,7 +36,7 @@
 * 백엔드에서는 특정 형식\(JSON, XML\)으로 저장된 i18n 데이터를 프레임워크의 도움을 받아 문서를 동적으로 생성한다.
 * 클라이언트 사이드 랜더링 시 클라이언트 사이드에서 해당 언어팩\(JSON 등\)을 가져와 출력한다. 
 
-#### 다국어 사이트 디자인 / 개발 시 주의사항
+### 다국어 디자인/개발 시 주의사항
 
 * **개발 관점**
   * HTML에서 lang 속성을 사용한다.
@@ -33,14 +49,14 @@
   * 날짜 및 기타 포맷을 해당 언어에 맞는 방식으로 표시한다.
   * 문화 차이에 다른 색상이나, 언어를 읽는 방향을 고려한다.
 
-#### `data-` 속성은 어떤 것인가요?
+### `data-` 속성에 대해?
 
 * JS 라이브러리/프레임워크가 각광을 받기 전, UI 개발자는 **비표준 속성, DOM의 추가 프로퍼티의 조작없이 DOM 자체에서 추가 데이터를 저장하기 위해** `data-` 속성을 사용했다.
 * 적절한 속성이나 요소가 없는 페이지/앱에서 사용자 정의 데이터를 비공개 저장하기 위함이었다.
 * 사용자가 브라우저에서 쉽게 수정할 수 있기 때문에 권장하지 않는다.
 * 데이터 모델은 JS에 저장하며, 라이브러리/프레임워크의 데이터 바인딩을 통해 상태를 유지한다.
 
-#### HTML5의 구성 요소는?
+### HTML5의 구성 요소는?
 
 1. 시멘틱 \(의미적 요소\) 다양한 요소를 통해 콘텐츠를 보다 더 정확하게 표현한다.
 2. 연결 Web Sockets, WebRTC, Server-Sent events와 같이 새롭고 혁신적인 방법으로 서버와 통신한다.
@@ -53,7 +69,7 @@
 
 [https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
-#### cookie, sessionStorage, localStorage 의 차이점은?
+### cookie, sessionStorage, localStorage 비
 
 |  | `cookie` | `localStorage` | `sessionStorage` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -67,7 +83,7 @@
 * 세 기술 모두 클라이언트에서 중요한 데이터를 저장하는 메너키즘이다.
 * 모두 문자열로만 값을 저장할 수 있다.
 
-#### `<script>`, `<script async>`, `<script defer>` 의 차이점
+### `<script>`, `<script async>`, `<script defer>` 의 차이점
 
 * `<script>` 
   * HTML 파싱이 중단되고 스크립트가 즉시 실행. 실행 후 HTML 파싱이 다시 시작됨
@@ -81,7 +97,7 @@
   * `document.write`를 포함하면 안 됨.
 * src 속성이 없는 스크립트에서는 async, defer 속성이 무시된다.
 
-#### 왜 CSS &lt;link&gt; 를 &lt;head&gt;&lt;/head&gt;에, &lt;script&gt;를 &lt;/body&gt; 직전에 위치시키나요?
+### 왜 CSS &lt;link&gt; 를 head에, &lt;script&gt;를 body 직전에 위치시키나요?
 
 * `<link>`
   * w3c [명세](https://www.w3.org/TR/html401/struct/links.html#edef-LINK)의 일부이다.
@@ -91,7 +107,7 @@
   * 다운되고 실행되는동안 HTML 파싱을 차단하기 때문에 맨 아래에 두면 HTML 파싱 후 실행할 수 있다.
   * `<head>`에 둔 후 `defer` 속성을 사용하는 방법도 있다.
 
-#### 프로그레시브 렌더링이란?
+### 프로그레시브 렌더링이란?
 
 * 콘텐츠를 가능한 빨리 표시하기 위해 성능을 향상시키는 기술
 * 인터넷 속도가 느리거나, 불안정한 모바일 인터넷으로 인해 아직도 유용하다.
@@ -102,7 +118,7 @@
 * 비동기 HTML 프래그먼트 \(Async Fragments\)
   * 페이지의 백엔드에서 HTML 의 일부를 브라우저로 가져온다.
 
-#### 이미지 태그에 `srcset` 속성을 사용하는 이유와 브라우저의 콘텐츠 평가 프로세스는?
+### 이미지 태그에 `srcset` 속성을 사용하는 이유와 브라우저의 콘텐츠 평가 프로세스는?
 
 * 기기의 디스플레이 너비에 따라 다른 이미지를 사용하려는 경우에 사용.
   * 레티나 디스플레이에서 고품질 이미지 제공
@@ -122,57 +138,55 @@
 
 [https://github.com/yangshun/front-end-interview-handbook/blob/master/Translations/Korean/questions/html-questions.md](https://github.com/yangshun/front-end-interview-handbook/blob/master/Translations/Korean/questions/html-questions.md#doctype%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%84-%ED%95%A9%EB%8B%88%EA%B9%8C)
 
-
-
-#### 웹표준에 맞게 작업할 때 b, i 태그 대신 적합한 태그는 각각 무엇일까요? 
+### 웹표준에 맞게 작업할 때 b, i 태그 대신 적합한 태그는 각각 무엇일까요? 
 
 * `<strong>`, `<em>`와 같이 시멘틱 태그를 적용한다.
 
-#### block 요소와 inline 요소에 해당하는 태그 각각 5개씩
+### block 요소와 inline 요소에 해당하는 태그 각각 5개씩
 
 * block
   * div, p, h1, nav, section, form, ul, ol ...
 * inline
   * strong, span, em, img, select, input ...
 
-#### `blockquote` 태그는 어떤 용도로 사용하나요?
+### `blockquote` 태그는 어떤 용도로 사용하나요?
 
 * 인용구
 
-#### 인라인 스타일을 가급적 사용하지 말아야 할 이유는? 
+### 인라인 스타일을 가급적 사용하지 말아야 할 이유는? 
 
 * 콘텐츠\(HTML\)와 스타일이 분리되지 않아 유지 관리의 어려움
 * 우선 순위 파악이 어려움.
 * 가독성이 나쁨.
 * 미디어쿼리 등 복잡한 스타일 적용하기 어려움.
 
-#### `id` 속성을 사용하는 이유 및  주의 할 점은? 
+### `id` 속성을 사용하는 이유 및  주의 할 점은? 
 
 * 선택자가 클래스보다 우선순위가 높기 때문에 주의 필요.
 * 페이지 당 하나만 써야한다.
 
-#### `TopArea`라는 클래스명이 좋지 않은 이름이라면 그 이유는? 
+### `TopArea`라는 클래스명이 좋지 않은 이름이라면 그 이유는? 
 
 * 스타일시트에서는 카멜케이스 대신 하이픈을 사용하는게 낫다.
 * 콘텐츠의 속성은 시멘틱 태그로  표현한다.
 
-#### HTML5에서 `aside` 태그는 어떤 용도로 사용하나요? 
+### HTML5 `aside` 태그의 용도는?
 
 * 문서의 콘텐츠에 별도로 이어진 콘텐츠
   * 전체 내용과는 관련이 있지만, 직접적인 연관성은 없는 분리된 내용
 * 사이드의 형태
 
-#### `blue-box`라는 클래스명이 좋지 않은 이름이라면 그 이유? 
+### `blue-box`라는 클래스명이 좋지 않은 이름이라면 그 이유? 
 
 * 스타일의 속성에 따라 분리하는게 나을 것 같다. 
 * box, blue를 각각 만드는게 확장성 측면에서 나을 듯.
 
-#### `input` 태그와 항상 함께 사용해야 할 태그는? 
+### `input` 태그와 항상 함께 사용해야 할 태그는? 
 
 * `<button>`
 * `<label>`
 
-#### 모바일웹 또는 반응형 웹디자인에서 각 기기에 적합한 화면을 보여주기 위해 필요한 `meta` 태그는?
+### 모바일웹 또는 반응형 웹디자인에서 각 기기에 적합한 화면을 보여주기 위해 필요한 `meta` 태그는?
 
 `<meta name="viewport" content="width=device-width">`
 
