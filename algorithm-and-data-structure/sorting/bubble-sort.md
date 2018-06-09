@@ -3,7 +3,7 @@
 * 인접한 두 값을 비교해서, 왼쪽 값이 더 큰 경우 자리를 바꾸는 과정 반복해서 정렬하는 방식
 * 시간복잡도 O\(n²\)
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](https://camo.githubusercontent.com/383b23979d4d7f279f8fb285b36bcdd357b10a35/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f632f63382f427562626c652d736f72742d6578616d706c652d33303070782e676966)
 
 ```javascript
 function bubbleSort(array) {
