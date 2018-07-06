@@ -24,6 +24,7 @@
   * [Cross Browser](web/cross-browser.md)
   * [Document Reflows](web/document-reflows.md)
   * [Open Graph](web/open-graph.md)
+  * [이미지 압축 \(Image optimization\)](web/image-optimization.md)
 * [Algorithm and Data Structure](algorithm-and-data-structure/README.md)
   * [자료구조 \(Data Structure\)](algorithm-and-data-structure/data-structure/README.md)
     * [큐 \(Queue\)](algorithm-and-data-structure/data-structure/queue.md)
