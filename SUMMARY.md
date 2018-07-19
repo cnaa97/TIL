@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Today What I Learned](today-what-i-learned.md)
+* [Introduction](introduction.md)
 * [Javascript](javascript/README.md)
   * [클로저 \(closure\)](javascript/closure.md)
   * [프로토타입 \(Prototype\)](javascript/prototype.md)
