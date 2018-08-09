@@ -72,7 +72,7 @@ TODO
 ### cookie, sessionStorage, localStorage 비
 
 |  | `cookie` | `localStorage` | `sessionStorage` |
-| --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | 생성자 | 클라이언트/서버에서 생성되며, 서버에서는 Set-Cookie 헤더를 사용한다. | 클라이언트 | 클라이언트 |
 | 만료 | 수정으로 설정 | 영구 | 탭을 닫을 때 |
 | 브라우저 세션 전체에서 지 | 만료 설정 여부에 따라 다 | O | X |
